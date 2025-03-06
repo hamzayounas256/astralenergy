@@ -1,7 +1,7 @@
 import React from "react";
 // Import placeholder images for team members - replace with your actual image paths
 // import leadershipImage from "../assets/leadership-team.jpg";
-// import hseImage from "../assets/hse-image.jpg";
+import hseImage from "../assets/hse.png";
 
 export default function About() {
 	document.title = "AES | About us";
@@ -161,7 +161,7 @@ export default function About() {
 					</div>
 					<div className="md:w-1/2">
 						<img
-							// src={hseImage}
+							src={hseImage}
 							alt="Health, Safety and Environment"
 							className="w-full h-auto rounded-lg shadow-md"
 						/>
@@ -170,7 +170,7 @@ export default function About() {
 			</section>
 
 			{/* CTA Section */}
-			<section className="py-12 bg-blue-600 text-white rounded-lg mb-12 px-6 md:px-10">
+			{/* <section className="py-12 bg-blue-600 text-white rounded-lg mb-12 px-6 md:px-10">
 				<div className="text-center">
 					<h2 className="text-2xl md:text-3xl font-bold mb-4">
 						Want to work with our expert team?
@@ -186,7 +186,7 @@ export default function About() {
 						Get in Touch
 					</a>
 				</div>
-			</section>
+			</section> */}
 		</div>
 	);
 }

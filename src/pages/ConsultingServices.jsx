@@ -255,7 +255,7 @@ export default function ConsultingServices() {
 			</section>
 
 			{/* CTA Section */}
-			<section className="py-12 bg-blue-600 text-white rounded-lg mb-12 px-6 md:px-10">
+			{/* <section className="py-12 bg-blue-600 text-white rounded-lg mb-12 px-6 md:px-10">
 				<div className="text-center">
 					<h2 className="text-2xl md:text-3xl font-bold mb-4">
 						Ready to optimize your energy operations?
@@ -280,7 +280,7 @@ export default function ConsultingServices() {
 						</a>
 					</div>
 				</div>
-			</section>
+			</section> */}
 		</div>
 	);
 }

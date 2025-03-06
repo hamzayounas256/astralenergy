@@ -35,7 +35,7 @@ export default function Contact() {
 	};
 
 	return (
-		<div className="container mx-auto px-4 py-8 max-w-6xl">
+		<div className="pt-30 pb-8 md:py-32 container mx-auto px-4 max-w-6xl">
 			<h1 className="text-3xl md:text-4xl font-bold text-center mb-8">
 				Contact Us
 			</h1>
@@ -167,11 +167,8 @@ export default function Contact() {
 							</div>
 						</div>
 						<p className="text-gray-700">
-							AES Headquarters
-							<br />
-							Blue Area, Islamabad
-							<br />
-							Pakistan
+							House no 22, Street no 152, <br />
+							Sector G-13/4, Islamabad Pakistan
 						</p>
 					</div>
 
@@ -202,10 +199,10 @@ export default function Contact() {
 									/>
 								</svg>
 								<a
-									href="mailto:business@aes.com"
+									href="mailto:astralenergy24@gmail.com"
 									className="text-blue-600 hover:underline"
 								>
-									business@aes.com
+									astralenergy24@gmail.com
 								</a>
 							</div>
 
@@ -225,20 +222,20 @@ export default function Contact() {
 									/>
 								</svg>
 								<a
-									href="tel:+925100000000"
+									href="tel:+923327229966"
 									className="text-blue-600 hover:underline"
 								>
-									+92 51 0000 0000
+									00923327229966
 								</a>
 							</div>
 
-							<div className="mt-4 pt-4 border-t border-gray-200">
+							{/* <div className="mt-4 pt-4 border-t border-gray-200">
 								<h3 className="font-medium text-gray-800">Office Hours</h3>
 								<p className="text-gray-700">
 									Monday to Friday: 9:00 AM - 5:00 PM
 								</p>
 								<p className="text-gray-700">Saturday: 10:00 AM - 2:00 PM</p>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</div>
