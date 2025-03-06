@@ -1,6 +1,8 @@
 import React from "react";
 // Import placeholder images - replace with your actual image paths
-// import seismicImage from "../assets/seismic-consulting.jpg";
+import consultingservice1 from "../assets/consultingservice1.png";
+import consultingservice2 from "../assets/consultingservice2.png";
+import consultingservice3 from "../assets/consultingservice3.png";
 // import drillingImage from "../assets/drilling-advisory.jpg";
 // import geologicalImage from "../assets/geological-studies.jpg";
 
@@ -40,7 +42,7 @@ export default function ConsultingServices() {
 				<div className="flex flex-col lg:flex-row gap-8">
 					<div className="lg:w-2/5">
 						<img
-							// src={seismicImage}
+							src={consultingservice1}
 							alt="Seismic Data Consulting"
 							className="w-full h-auto rounded-lg shadow-md"
 						/>
@@ -113,7 +115,7 @@ export default function ConsultingServices() {
 				<div className="flex flex-col lg:flex-row-reverse gap-8">
 					<div className="lg:w-2/5">
 						<img
-							// src={drillingImage}
+							src={consultingservice2}
 							alt="Drilling Advisory Services"
 							className="w-full h-auto rounded-lg shadow-md"
 						/>
@@ -186,7 +188,7 @@ export default function ConsultingServices() {
 				<div className="flex flex-col lg:flex-row gap-8">
 					<div className="lg:w-2/5">
 						<img
-							// src={geologicalImage}
+							src={consultingservice3}
 							alt="Geological and Reservoir Studies"
 							className="w-full h-auto rounded-lg shadow-md"
 						/>

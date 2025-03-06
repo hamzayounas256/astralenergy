@@ -1,7 +1,9 @@
 import React from "react";
-// Import placeholder images for team members - replace with your actual image paths
-// import leadershipImage from "../assets/leadership-team.jpg";
 import hseImage from "../assets/hse.png";
+import MAzhar1 from "../assets/1MAzhar.png";
+import AtiqUrRehman13 from "../assets/13AttiqurRehman.png";
+import DrAsifAhsan17 from "../assets/17DrAsifAhsan.png";
+import leadershipandteam from "../assets/leadershipandteam.png";
 
 export default function About() {
 	document.title = "AES | About us";
@@ -93,7 +95,7 @@ export default function About() {
 					</div>
 					<div className="md:w-1/2">
 						<img
-							// src={leadershipImage}
+							src={leadershipandteam}
 							alt="AES Leadership Team"
 							className="w-full h-auto rounded-lg shadow-md"
 						/>
@@ -104,18 +106,28 @@ export default function About() {
 				<div className="mt-12 grid md:grid-cols-3 gap-6">
 					{/* Example Team Member Card - Repeat as needed */}
 					<div className="bg-white rounded-lg shadow p-6 text-center">
-						<div className="w-24 h-24 rounded-full bg-gray-300 mx-auto mb-4"></div>
-						<h3 className="text-xl font-semibold mb-1">John Doe</h3>
+						{/* <div className="w-24 h-24 rounded-full bg-gray-300 mx-auto mb-4"></div> */}
+						<img
+							src={DrAsifAhsan17}
+							className="w-24 h-24 rounded-full bg-gray-300 mx-auto mb-4"
+							alt=""
+						/>
+						<h3 className="text-xl font-semibold mb-1">Dr. Asif Ahsan</h3>
 						<p className="text-blue-600 mb-3">Chief Geological Advisor</p>
 						<p className="text-gray-600 text-sm">
-							With over 25 years of experience in petroleum geology and resource
+							With over 30 years of experience in petroleum geology and resource
 							evaluation.
 						</p>
 					</div>
 
 					<div className="bg-white rounded-lg shadow p-6 text-center">
-						<div className="w-24 h-24 rounded-full bg-gray-300 mx-auto mb-4"></div>
-						<h3 className="text-xl font-semibold mb-1">Jane Smith</h3>
+						{/* <div className="w-24 h-24 rounded-full bg-gray-300 mx-auto mb-4"></div> */}
+						<img
+							src={AtiqUrRehman13}
+							className="w-24 h-24 rounded-full bg-gray-300 mx-auto mb-4"
+							alt=""
+						/>
+						<h3 className="text-xl font-semibold mb-1">Atiq ur Rehman</h3>
 						<p className="text-blue-600 mb-3">Senior Drilling Consultant</p>
 						<p className="text-gray-600 text-sm">
 							Specialized in optimizing drilling operations and safety
@@ -124,8 +136,13 @@ export default function About() {
 					</div>
 
 					<div className="bg-white rounded-lg shadow p-6 text-center">
-						<div className="w-24 h-24 rounded-full bg-gray-300 mx-auto mb-4"></div>
-						<h3 className="text-xl font-semibold mb-1">Robert Johnson</h3>
+						{/* <div className="w-24 h-24 rounded-full bg-gray-300 mx-auto mb-4"></div> */}
+						<img
+							src={MAzhar1}
+							className="w-24 h-24 rounded-full bg-gray-300 mx-auto mb-4"
+							alt=""
+						/>
+						<h3 className="text-xl font-semibold mb-1">Muhammad Azhar</h3>
 						<p className="text-blue-600 mb-3">Seismic Data Specialist</p>
 						<p className="text-gray-600 text-sm">
 							Expert in interpreting complex geological data for exploration

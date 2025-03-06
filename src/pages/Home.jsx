@@ -1,6 +1,6 @@
 import React from "react";
 // Import a placeholder image - replace with your actual hero image path
-import heroImage from "../assets/hero.jpg";
+import heroImage from "../assets/hero.png";
 import { Link } from "react-router";
 
 export default function Home() {
